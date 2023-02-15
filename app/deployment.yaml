@@ -34,8 +34,8 @@ spec:
 
       - name: java-proj
 
-        image: javascriptdocker:latest
-
+        image: javascriptdocker
+        imagePullPolicy: "Always"
         ports:
 
         - containerPort: 8080
