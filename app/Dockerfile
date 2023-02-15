@@ -10,6 +10,6 @@ COPY ["package.json", "package-lock.json*", "./"]
 RUN npm install --production
 
 COPY . .
-
+RUN ls
 EXPOSE 8080
 CMD [ "node", "server.js" ]
