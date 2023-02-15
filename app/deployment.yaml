@@ -34,7 +34,7 @@ spec:
 
       - name: java-proj
 
-        image: javascriptdocker
+        image: vamshiacr.azurecr.io/javascriptdocker
         imagePullPolicy: "Always"
         ports:
 
