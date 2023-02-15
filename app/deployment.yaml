@@ -12,7 +12,7 @@ metadata:
 
 spec:
 
-  replicas: 3
+  replicas: 1
 
   selector:
 
@@ -34,7 +34,7 @@ spec:
 
       - name: java-proj
 
-        image: vamshiacr.azurecr.io/javascriptdocker:7
+        image: vamshiacr.azurecr.io/javascriptdocker:8
         ports:
 
         - containerPort: 8080
