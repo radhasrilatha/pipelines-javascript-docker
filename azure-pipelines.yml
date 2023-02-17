@@ -43,3 +43,5 @@ stages:
         kubernetesServiceConnection: 'Service account SC'
         namespace: 'default'
         manifests: '$(Build.SourcesDirectory)/app/deployment.yaml'
+        containers: |
+          $(containerRegistry)/$(imageRepository):$(tag)
