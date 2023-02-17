@@ -9,8 +9,6 @@ metadata:
   labels:
 
     app: java
-  namespace: test
-
 spec:
 
   replicas: 1
